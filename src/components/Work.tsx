@@ -3,40 +3,40 @@ import  {Projectcard}  from './Projectcard'
 export const Work = () => {
     const works = [
         {
-          imgSrc: '/images/project-1.jpg',
-          title: 'Full stack music app',
+          imgSrc: '/images/greenshadow.png',
+          title: 'Full stack Crop System',
           tags: ['API', 'MVC', 'Development'],
-          projectLink: 'https://musify-5al0.onrender.com/'
+          projectLink: 'https://github.com/RandikaEdirisooriya/Green_Shadow_Frontend.git'
         },
         {
-          imgSrc: '/images/project-2.jpg',
-          title: 'Free stock photo app',
-          tags: ['API', 'SPA'],
-          projectLink: 'https://pixstock-official.vercel.app/'
+          imgSrc: '/images/flipit.png',
+          title: 'eCommerce Bookstore',
+          tags: ['API', 'SPA', 'Development'],
+          projectLink: 'https://github.com/RandikaEdirisooriya/FlipIt-frontend.git'
         },
         {
-          imgSrc: '/images/project-3.jpg',
-          title: 'Recipe app',
-          tags: ['Development', 'API'],
-          projectLink: ''
+          imgSrc: '/images/Findly.png',
+          title: 'Lost Item Tracking app',
+          tags: ['Development', 'API', 'Mobile'],
+          projectLink: 'https://github.com/RandikaEdirisooriya/FlipIt-frontend.git'
         },
         {
-          imgSrc: '/images/project-4.jpg',
-          title: 'Real state website',
-          tags: ['Web-design', 'Development'],
-          projectLink: 'https://github.com/codewithsadee-org/wealthome'
+          imgSrc: '/images/cabtech.png',
+          title: 'car rental app',
+          tags: ['JavaFx', 'Development'],
+          projectLink: 'https://github.com/RandikaEdirisooriya/Cabtech-layered.git'
         },
         {
-          imgSrc: '/images/project-5.jpg',
-          title: 'eCommerce website',
-          tags: ['eCommerce', 'Development'],
-          projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+          imgSrc: '/images/mediflow.png',
+          title: 'Hospital  website',
+          tags: ['API', 'Development'],
+          projectLink: 'https://github.com/INNOV8SOFT-PVT-LTD/CircleEdgeProject.git'
         },
         {
-          imgSrc: '/images/project-6.jpg',
-          title: 'vCard Personal portfolio',
-          tags: ['Web-design', 'Development'],
-          projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+          imgSrc: '/images/videocall.png',
+          title: 'Video call app',
+          tags: ['JS', 'Development'],
+          projectLink: 'https://github.com/RandikaEdirisooriya/webRTC-With-Zegocloud.git'
         },
       ];
 

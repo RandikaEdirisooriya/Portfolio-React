@@ -11,11 +11,11 @@ const Footer = () => {
   ];
 
   const socials = [
-    { label: 'GitHub', href: 'https://www.github.com/codewithsadee-org' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/codewithsadee' },
+    { label: 'GitHub', href: 'https://github.com/RandikaEdirisooriya' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/randika-edirisooriya-17a3382a3/' },
    
-    { label: 'Instagram', href: 'https://www.instagram.com/codewithsadee' },
-    { label: 'Facebook', href: 'https://codepen.io/codewithsadee' }
+    { label: 'Instagram', href: 'https://www.instagram.com/randikaedirisooriya/' },
+    { label: 'Facebook', href: 'https://web.facebook.com/randika.edirisooriya' }
   ];
 
   return (

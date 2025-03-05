@@ -6,46 +6,47 @@ export const Achievement = () => {
   const AchieveItems = [
     {
       label: "Innovesta 2023 - 2nd Place",
-      disc: "I led my team, Innov8Soft, in the Innovesta 2023 competition, where we secured second place with our innovative group project.",
+      disc: "Led my team, Innov8Soft, to second place in Innovesta 2023 with a groundbreaking project.",
       imgSrc: "/images/innovesta.jpg",
     },
     {
-      label: "Innovesta 2023 - 2nd Place",
-      disc: "I led my team, Innov8Soft, in the Innovesta 2023 competition, where we secured second place with our innovative group project.",
+      label: "Innovesta 2023 - Innovation Award",
+      disc: "Recognized for outstanding innovation in software solutions at Innovesta 2023.",
       imgSrc: "/images/imagesix.jpg",
     },
     {
-      label: "Innovesta 2023 - 2nd Place",
-      disc: "I led my team, Innov8Soft, in the Innovesta 2023 competition, where we secured second place with our innovative group project.",
+      label: "Innovesta 2023 - Best UI/UX",
+      disc: "Secured best UI/UX design award for an intuitive and user-friendly application.",
       imgSrc: "/images/imagefive.jpg",
     },
     {
-      label: "Innovesta 2023 - 2nd Place",
-      disc: "I led my team, Innov8Soft, in the Innovesta 2023 competition, where we secured second place with our innovative group project.",
+      label: "Innovesta 2023 - Team Excellence",
+      disc: "Honored for exceptional teamwork and problem-solving skills in Innovesta 2023.",
       imgSrc: "/images/aword.jpg",
     },
     {
       label: "Circle Edge 2024 - 2nd Place",
-      disc: "As the leader of Innov8Soft, I guided our team to achieve second place in the Circle Edge 2024 competition, showcasing our skills in software development and problem-solving.",
+      disc: "Achieved second place in Circle Edge 2024, showcasing technical excellence in software development.",
       imgSrc: "/images/imagethree.jpg",
     },
     {
-      label: "Circle Edge 2024 - 2nd Place",
-      disc: "As the leader of Innov8Soft, I guided our team to achieve second place in the Circle Edge 2024 competition, showcasing our skills in software development and problem-solving.",
+      label: "Circle Edge 2024 - AI Integration Award",
+      disc: "Awarded for outstanding AI-driven solutions in Circle Edge 2024 competition.",
       imgSrc: "/images/imgeone.jpg",
     },
     {
-      label: "Circle Edge 2024 - 2nd Place",
-      disc: "As the leader of Innov8Soft, I guided our team to achieve second place in the Circle Edge 2024 competition, showcasing our skills in software development and problem-solving.",
+      label: "Circle Edge 2024 - Best Innovation",
+      disc: "Recognized for introducing a highly innovative approach to real-world problems.",
       imgSrc: "/images/imgetwo.jpg",
     },
     {
-        label: "Circle Edge 2024 - 2nd Place",
-        disc: "As the leader of Innov8Soft, I guided our team to achieve second place in the Circle Edge 2024 competition, showcasing our skills in software development and problem-solving.",
-        imgSrc: "/images/imagefour.jpg",
-      },
-  ]
-
+      label: "Circle Edge 2024 - Leadership Award",
+      disc: "Received appreciation for leading the team effectively towards success.",
+      imgSrc: "/images/imagefour.jpg",
+    },
+  ];
+  
+  
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
