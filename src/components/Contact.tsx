@@ -46,7 +46,7 @@ export const Contact = () => {
       ];
   return (
     <section className="section " id='contact'>
-        <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
+        <div className="container lg:grid lg:grid-cols-2 lg:items-stretch reveal-up">
             <div className="mb:12 lg:mb-0 lg:flex lg:flex-col">
                 <h2 className="headline-2 lg:max-w-[12ch]">Contact me for collaboration</h2>
                 <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
@@ -80,7 +80,7 @@ export const Contact = () => {
                 </label>
                 <textarea name="message" id="message" className='text-field resize-y min-h-32 max-h-80' placeholder='hi, i would like to work with you' required></textarea>
               </div>
-              <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">Submit</button>
+              <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up">Submit</button>
               
             </form>
         </div>

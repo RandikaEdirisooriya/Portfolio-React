@@ -43,12 +43,12 @@ export const Work = () => {
   return (
     <section className="section" id='work'>
         <div className="container">
-          <h2 className="headline-2 mb-8">
+          <h2 className="headline-2 mb-8 reveal-up">
           My portfolio highlights
           </h2>
           <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,minmax(280px,_1fr))] ">
             {works.map(({imgSrc,title,tags,projectLink},key) => (
-              <Projectcard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} />
+              <Projectcard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} classess='reveal-up' />
             ))}
           </div>
         </div>

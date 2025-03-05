@@ -42,15 +42,15 @@ export const Skill = () => {
   const displayedSkills = isMobile && !showAll ? skillItem.slice(0, 8) : skillItem;
 
   return (
-    <section className='section'>
+    <section className='section ' id='skills'>
       <div className="container">
-        <h2 className="headline-2">Essential Tools & Technologies I Master</h2>
+        <h2 className="headline-2 reveal-up">Essential Tools & Technologies I Master</h2>
         <p className="text-zinc-400 mt-7 mb-8 max-w-[50ch]">
         Explore the cutting-edge tools and technologies I leverage to build high-performance, exceptional websites and applications.        </p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
           {displayedSkills.map(({ imgSrc, label, desc }, key) => (
-            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes='reveal-up' />
           ))}
         </div>
 

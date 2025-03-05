@@ -57,7 +57,7 @@ export const Achievement = () => {
   }, [])
 
   return (
-    <section className="section flex justify-center items-center min-h-[550px] px-4">
+    <section className="section flex justify-center items-center min-h-[550px] px-4 reveal-up">
       <div className="container max-w-5xl w-full">
         <div className="bg-zinc-800/50 p-6 md:p-14 rounded-2xl relative min-h-[400px] flex items-center justify-center overflow-hidden">
           {AchieveItems.map(({ label, disc, imgSrc }, index) => (

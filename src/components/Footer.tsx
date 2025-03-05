@@ -23,18 +23,19 @@ const Footer = () => {
       <div className="container">
         <div className="lg:grid lg:grid-cols-2 gap-10">
           <div>
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
+            <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
               Let&apos;s work together today!
             </h2>
             <ButtonPrimary
               href="randikaedirisooriya@gmail.com"
               label="Start Project"
               icon="chevron_right"
+              classes='reveal-up'
             />
           </div>
           <div className="grid grid-cols-2 gap-8 lg:pl-20">
             <div>
-              <p className="mb-2 font-medium">Sitemap</p>
+              <p className="mb-2 font-medium reveal-up">Sitemap</p>
               <ul>
                 {sitemap.map(({ label, href }, key) => (
                   <li key={key}>
@@ -49,7 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="mb-2 font-medium">Socials</p>
+              <p className="mb-2 font-medium reveal-up">Socials</p>
               <ul>
                 {socials.map(({ label, href }, key) => (
                   <li key={key}>
@@ -68,12 +69,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-10 mt-8 border-t border-zinc-700">
+        <div className="flex items-center justify-between pt-10 mt-8 border-t border-zinc-700 reveal-up">
           <a href="#">
             <img src="logo.png" alt="logo" width={40} height={40} />
           </a>
           <p className="text-zinc-500 text-sm">
-            &copy; 2025 <span className="text-zinc-100">Randika Edirisooriya</span>
+            &copy; 2025 <span className="text-zinc-100 reveal-up">Randika Edirisooriya</span>
           </p>
         </div>
       </div>

@@ -20,11 +20,11 @@ export const Education = () => {
   return (
     <section className="section overflow-hidden" id='education'>
       <div className="container">
-        <h2 className="headline-2 mb-8">Education Path</h2>
+        <h2 className="headline-2 mb-8 reveal-up">Education Path</h2>
         {/* Flex Column on Small Screens */}
         <div className="flex flex-wrap md:flex-nowrap gap-3 w-fit justify-center">
           {educationDetails.map(({content, name, imgSrc, company}, key) => (
-            <EducationCard key={key} content={content} name={name} imgSrc={imgSrc} company={company} />
+            <EducationCard key={key} content={content} name={name} imgSrc={imgSrc} company={company} classes='reveal-up' />
           ))}
         </div>
       </div>
