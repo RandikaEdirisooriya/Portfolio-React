@@ -51,8 +51,8 @@ export const Navbar = ({navOpen} : NavbarProps) => {
       className: 'nav-link'
     },
     {
-      label: 'Reviews',
-      link: '#reviews',
+      label: 'Education',
+      link: '#education',
       className: 'nav-link'
     },
     {
