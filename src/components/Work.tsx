@@ -1,4 +1,4 @@
-import React from 'react'
+
 import  {Projectcard}  from './Projectcard'
 export const Work = () => {
     const works = [

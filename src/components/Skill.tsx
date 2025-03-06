@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import SkillCard from './SkillCard';
 
 export const Skill = () => {

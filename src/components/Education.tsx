@@ -1,4 +1,4 @@
-import React from 'react';
+
 import EducationCard from './EducationCard';
 
 export const Education = () => {
