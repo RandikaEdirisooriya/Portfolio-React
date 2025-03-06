@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 export const Achievement = () => {
   const AchieveItems = [
@@ -45,22 +45,21 @@ export const Achievement = () => {
       imgSrc: "/images/imagefour.jpg",
     },
   ];
-  
-  
-  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % AchieveItems.length)
-    }, 5000) // Change every 5 seconds
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % AchieveItems.length);
+    }, 5000); // Change every 5 seconds
 
-    return () => clearInterval(interval)
-  }, [])
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <section className="section flex justify-center items-center min-h-[550px] px-4 reveal-up">
+    <section className="section flex justify-center items-center min-h-[500px] md:min-h-[550px] px-4 reveal-up">
       <div className="container max-w-5xl w-full">
-        <div className="bg-zinc-800/50 p-6 md:p-14 rounded-2xl relative min-h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="bg-zinc-800/50 p-6 md:p-14 rounded-2xl relative min-h-[500px] md:min-h-[550px] flex items-center justify-center overflow-hidden">
           {AchieveItems.map(({ label, disc, imgSrc }, index) => (
             <div
               key={index}
@@ -70,7 +69,7 @@ export const Achievement = () => {
             >
               {/* Left Side - Larger Image */}
               <div className="w-full md:w-1/2 flex justify-center">
-                <div className="w-75 h-72 md:w-100 md:h-96 rounded-lg overflow-hidden shadow-lg">
+                <div className="w-72 h-80 md:w-100 md:h-96 rounded-lg overflow-hidden shadow-lg">
                   <img
                     src={imgSrc || "/placeholder.svg"}
                     alt={label}
