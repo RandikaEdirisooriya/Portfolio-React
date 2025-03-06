@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ButtonPrimary } from './Button';
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Work', href: '#work' },
-    { label: 'Education', href: '#education' },
+    { label: 'Education', href: '#education' }, 
     { label: 'Contact me', href: '#contact' }
   ];
 
